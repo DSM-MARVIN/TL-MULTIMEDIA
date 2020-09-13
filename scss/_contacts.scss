@@ -1,0 +1,57 @@
+.section .discr2{
+    margin-left: -6px;
+    background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)),
+    url(./images/happy/cam7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: 100%;
+    padding: 0 10px;
+    flex:3;
+}
+
+.section .discr .w2one{
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+.section .discr2 .w3one{
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+.section .discr2 .w3two{
+    margin-top: -30px;
+    font-family: tahoma;
+    font-size: 25px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    letter-spacing: 0.2em
+}
+
+.section .discr2 .my-contact{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section .discr2 .my-contact li{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.section .discr2 .my-contact .fa{
+    font-size: 50px;
+}
+.section .discr2 .my-contact .fa-phone{
+    color : coral;
+}
+.section .discr2 .my-contact .fa-whatsapp{
+    color : green;
+}
+.section .discr2 .my-contact .fa-facebook-square{
+    color :darkblue;
+}
+.section .discr2 .my-contact .fa-instagram{
+    color : purple;
+}
+

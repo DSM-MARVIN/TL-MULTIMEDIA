@@ -1,0 +1,186 @@
+@import './mobile';
+@import './about';
+@import './contacts';
+@import './circleAnimation';
+
+/* main to every page */
+body{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: black;
+}
+
+
+.main-header{
+    margin: -6px -6px 0 -6px;
+    padding: 6px;
+    position: relative;
+
+    /* height: 100vh; */
+}
+
+.logo{
+    margin: -5px 0 0 -5px;
+    width: 30px;
+    
+}
+.main-header a{
+    padding: 8px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    transition-property: color background-color;
+    transition-duration: 0.5s;
+}
+
+.main-header a:hover{
+    background: orange;
+    /* color: orange; */
+}
+
+.main-header .nav-ul{
+    list-style: none;
+    position: absolute;
+    right: 5px;
+    top: -15px;
+    /* padding: 8px; */
+    display: flex;
+}
+
+.main-section{
+    display: flex;
+    align-items: center;
+    margin : 20px 20px 0 20px;
+}
+
+/* index.html button */
+.main-section a{
+    /* border-radius: 100px; */
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 6px 10px;
+    background-color: white;
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+.main-section a:hover{
+    transform: rotateX(180deg);
+    background: orange;
+    border-radius: 20px;
+    color: white;
+}
+
+/* logo image */
+.main-section .img{
+    width: 300px;
+}
+
+.main-section .side{
+    padding-left: 9%;
+    flex: 1;    
+}
+
+.main-section .main{
+    position: relative;
+    margin-left: -20px;
+    height: 80vh;
+    text-align: center;
+    background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)),
+    url(/dist/images/happy7.jpg);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px 1px;
+    flex: 2;
+}
+
+
+
+.main-section .values{
+ position: absolute;
+ bottom: 10px; 
+ left: -25px;
+}
+
+.main-section .values ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 15px;
+}
+
+.main-section .values ul li{
+    font-weight: bold;
+    letter-spacing: 1.5px ;
+    padding: 2px;
+}
+
+.main-section .values ul li .fa{
+    color: orange;
+
+}
+
+.main-section .wone{
+    margin-top: 10%;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.main-section .wtwo{
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.values{
+    margin-top: 30px;
+    text-align: center;
+}
+
+//location
+.location {
+     .loc{
+         text-align: center;
+         font-size: 35px;
+     }
+
+     .loc-dir{
+         font-size: 20px;
+     }
+
+     .our-loc{
+         color: lightgreen;
+     }
+
+     .loc-dir li{
+         margin-bottom: 4px;
+     }
+
+     .fa-map{
+         color: royalblue;
+     }
+
+     .fa-map-marker{
+         color: lightgreen;
+     }
+     
+}
+
+// footer
+
+#tlFooter{
+    border-top: 1px white solid;
+    background-color: black;
+}
+
+#tlFooter .contactme ul{
+    list-style: none;
+}
+
+#tlFooter .contactme ul .fa{
+    color: royalblue;
+
+}
