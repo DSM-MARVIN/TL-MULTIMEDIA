@@ -100,7 +100,7 @@ li{list-style: none;}
 }
 
 .box-row1:nth-child(1){
-    background-image: url(/dist/images/sample/IMG3.jpg);
+    background-image: url(../images/sample/IMG3.jpg);
     background-size: cover;
     background-color: #333;
     width: 20vw;
@@ -110,7 +110,7 @@ li{list-style: none;}
     transition-duration: 1s;
 }
 .box-row1:nth-child(2){
-    background-image: url(/dist/images/sample/IMG12.jpg);
+    background-image: url(../images/sample/IMG12.jpg);
     background-size: cover;
     background-color: #333;
     background-position: center;
@@ -120,7 +120,7 @@ li{list-style: none;}
     height: 30vmin;
 }
 .box-row1:nth-child(3){
-    background-image: url(/dist/images/sample/IMG5.jpg);
+    background-image: url(../images/sample/IMG5.jpg);
     background-size: cover;
     background-color: #333;
     background-position: center;
@@ -140,7 +140,7 @@ li{list-style: none;}
     height: 30vmin;
 }
 .box-row1:nth-child(4){
-    background-image: url(/dist/images/sample/FB1~2.jpg);
+    background-image: url(../images/sample/FB1~2.jpg);
     background-size: cover;
     background-color: #333;
     /* flex: 1; */
@@ -160,7 +160,7 @@ li{list-style: none;}
 
 .box-row2{
     background-color: #333;
-    background-image: url(/dist/images/sample/IMG1.jpg);
+    background-image: url(../images/sample/IMG1.jpg);
     background-size: cover;
     background-position: center;
     /* flex: 1; */
@@ -172,7 +172,7 @@ li{list-style: none;}
 }
 .box-row2:nth-child(2){
     background-color: #333;
-    background-image: url(/dist/images/sample/IMG4.jpg);
+    background-image: url(../images/sample/IMG4.jpg);
     /* flex: 1; */
     width: 20vw;
     background-position: center;
@@ -182,7 +182,7 @@ li{list-style: none;}
 
 .box-row2:nth-child(3){
     background-color: #333;
-    background-image: url(/dist/images/sample/IMG7.jpg);
+    background-image: url(../images/sample/IMG7.jpg);
     /* flex: 1; */
     width: 20vw;
     border: 5px black solid;
@@ -200,7 +200,7 @@ li{list-style: none;}
 }
 
 .box-row3{
-    background-image: url(/dist/images/sample/FB3~2.jpg);
+    background-image: url(../images/sample/FB3~2.jpg);
     background-size: cover;
     background-color: #333;
     width: 20vw;
@@ -210,7 +210,7 @@ li{list-style: none;}
     transition-duration: 1s;
 }
 .box-row3:nth-child(2){
-    background-image: url(/dist/images/sample/IMG8.jpg);
+    background-image: url(../images/sample/IMG8.jpg);
     background-size: cover;
     background-color: #333;
     width: 20vw;
@@ -220,7 +220,7 @@ li{list-style: none;}
     transition-duration: 1s;
 }
 .box-row3:nth-child(3){
-    background-image: url(/dist/images/sample/IMG9.jpg);
+    background-image: url(../images/sample/IMG9.jpg);
     background-size: cover;
     background-color: #333;
     width: 20vw;
@@ -230,7 +230,7 @@ li{list-style: none;}
     transition-duration: 1s;
 }
 .box-row3:nth-child(4){
-    background-image: url(/dist/images/sample/IMG10.jpg);
+    background-image: url(../images/sample/IMG10.jpg);
     background-size: cover;
     background-color: #333;
     width: 20vw;
@@ -251,7 +251,7 @@ li{list-style: none;}
 }
 
 .box-row4{
-    background-image: url(/dist/images/sample/IMG11.jpg);
+    background-image: url(../images/sample/IMG11.jpg);
     background-size: cover;
     background-color: #333;
     /* flex: 1; */
@@ -262,7 +262,7 @@ li{list-style: none;}
     transition-duration: 1s;
 }
 .box-row4:nth-child(2){
-    background-image: url(/dist/images/sample/IMG13.jpg);
+    background-image: url(../images/sample/IMG13.jpg);
     background-size: cover;
     background-color: #333;
     background-position: center;
@@ -272,7 +272,7 @@ li{list-style: none;}
     height: 51.7vmin;
 }
 .box-row4:nth-child(3){
-    background-image: url(/dist/images/sample/IMG2.jpg);
+    background-image: url(../images/sample/IMG2.jpg);
     background-size: cover;
     background-color: #333;
     background-position: top;
@@ -302,7 +302,7 @@ li{list-style: none;}
     background-position: center;
     background-image: 
     linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)),
-    url('/dist/images/backprice.jpg');
+    url('../images/backprice.jpg');
     width: 250px;
     height: 300px;
     background-color: #333;
@@ -321,7 +321,7 @@ li{list-style: none;}
 .box .list-item{
     letter-spacing: 0.1em;
     font-family: Arial, Helvetica, sans-serif;
-    list-style-image: url('/dist/images/tick4.png');
+    list-style-image: url('../images/tick4.png');
 }
 
 .box .head-con{

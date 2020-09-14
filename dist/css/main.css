@@ -180,7 +180,7 @@ li {
 }
 
 .box-row1:nth-child(1) {
-  background-image: url(/dist/images/sample/IMG3.jpg);
+  background-image: url(../images/sample/IMG3.jpg);
   background-size: cover;
   background-color: #333;
   width: 20vw;
@@ -193,7 +193,7 @@ li {
 }
 
 .box-row1:nth-child(2) {
-  background-image: url(/dist/images/sample/IMG12.jpg);
+  background-image: url(../images/sample/IMG12.jpg);
   background-size: cover;
   background-color: #333;
   background-position: center;
@@ -204,7 +204,7 @@ li {
 }
 
 .box-row1:nth-child(3) {
-  background-image: url(/dist/images/sample/IMG5.jpg);
+  background-image: url(../images/sample/IMG5.jpg);
   background-size: cover;
   background-color: #333;
   background-position: center;
@@ -225,7 +225,7 @@ li {
 }
 
 .box-row1:nth-child(4) {
-  background-image: url(/dist/images/sample/FB1~2.jpg);
+  background-image: url(../images/sample/FB1~2.jpg);
   background-size: cover;
   background-color: #333;
   /* flex: 1; */
@@ -250,7 +250,7 @@ li {
 
 .box-row2 {
   background-color: #333;
-  background-image: url(/dist/images/sample/IMG1.jpg);
+  background-image: url(../images/sample/IMG1.jpg);
   background-size: cover;
   background-position: center;
   /* flex: 1; */
@@ -265,7 +265,7 @@ li {
 
 .box-row2:nth-child(2) {
   background-color: #333;
-  background-image: url(/dist/images/sample/IMG4.jpg);
+  background-image: url(../images/sample/IMG4.jpg);
   /* flex: 1; */
   width: 20vw;
   background-position: center;
@@ -275,7 +275,7 @@ li {
 
 .box-row2:nth-child(3) {
   background-color: #333;
-  background-image: url(/dist/images/sample/IMG7.jpg);
+  background-image: url(../images/sample/IMG7.jpg);
   /* flex: 1; */
   width: 20vw;
   border: 5px black solid;
@@ -297,7 +297,7 @@ li {
 }
 
 .box-row3 {
-  background-image: url(/dist/images/sample/FB3~2.jpg);
+  background-image: url(../images/sample/FB3~2.jpg);
   background-size: cover;
   background-color: #333;
   width: 20vw;
@@ -310,7 +310,7 @@ li {
 }
 
 .box-row3:nth-child(2) {
-  background-image: url(/dist/images/sample/IMG8.jpg);
+  background-image: url(../images/sample/IMG8.jpg);
   background-size: cover;
   background-color: #333;
   width: 20vw;
@@ -323,7 +323,7 @@ li {
 }
 
 .box-row3:nth-child(3) {
-  background-image: url(/dist/images/sample/IMG9.jpg);
+  background-image: url(../images/sample/IMG9.jpg);
   background-size: cover;
   background-color: #333;
   width: 20vw;
@@ -336,7 +336,7 @@ li {
 }
 
 .box-row3:nth-child(4) {
-  background-image: url(/dist/images/sample/IMG10.jpg);
+  background-image: url(../images/sample/IMG10.jpg);
   background-size: cover;
   background-color: #333;
   width: 20vw;
@@ -363,7 +363,7 @@ li {
 }
 
 .box-row4 {
-  background-image: url(/dist/images/sample/IMG11.jpg);
+  background-image: url(../images/sample/IMG11.jpg);
   background-size: cover;
   background-color: #333;
   /* flex: 1; */
@@ -377,7 +377,7 @@ li {
 }
 
 .box-row4:nth-child(2) {
-  background-image: url(/dist/images/sample/IMG13.jpg);
+  background-image: url(../images/sample/IMG13.jpg);
   background-size: cover;
   background-color: #333;
   background-position: center;
@@ -388,7 +388,7 @@ li {
 }
 
 .box-row4:nth-child(3) {
-  background-image: url(/dist/images/sample/IMG2.jpg);
+  background-image: url(../images/sample/IMG2.jpg);
   background-size: cover;
   background-color: #333;
   background-position: top;
@@ -421,8 +421,8 @@ li {
   position: relative;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.815)), to(rgba(0, 0, 0, 0.815))), url("/dist/images/backprice.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url("/dist/images/backprice.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.815)), to(rgba(0, 0, 0, 0.815))), url("../images/backprice.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url("../images/backprice.jpg");
   width: 250px;
   height: 300px;
   background-color: #333;
@@ -442,7 +442,7 @@ li {
 .box .list-item {
   letter-spacing: 0.1em;
   font-family: Arial, Helvetica, sans-serif;
-  list-style-image: url("/dist/images/tick4.png");
+  list-style-image: url("../images/tick4.png");
 }
 
 .box .head-con {
@@ -466,20 +466,6 @@ li {
 
 .bo4 .price .sign {
   font-size: 20px;
-}
-
-.section .discr2 {
-  margin-left: -6px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.815)), to(rgba(0, 0, 0, 0.815))), url(./images/happy/cam7.jpg);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(./images/happy/cam7.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 90vh;
-  background-size: 100%;
-  padding: 0 10px;
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
 }
 
 .section .discr .w2one {
@@ -884,8 +870,8 @@ body {
   margin-left: -20px;
   height: 80vh;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.815)), to(rgba(0, 0, 0, 0.815))), url(/dist/images/happy7.jpg);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(/dist/images/happy7.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.815)), to(rgba(0, 0, 0, 0.815))), url(../images/happy7.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815)), url(../images/happy7.jpg);
   background-position: unset;
   background-repeat: no-repeat;
   background-size: 100%;
